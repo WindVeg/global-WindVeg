@@ -105,6 +105,7 @@ The "LAIdataproduce.py" and "WINDdataproduce.py"  contain the preprocessing of t
 PS: the path in code: ('G:/CN05.1/month/CN05.1_Win_1982_2020_yearly_025x025.nc') should replaced by the nc file in wind year data. 
 
 LAI data used in the code should run LAIdataproduce.py first.
+wind data used in the code should run WINDdataproduce.py first.
 
 After completing the previous steps, Figures 1 to figures 4 should be visualized in Spyder within a minute.
 
