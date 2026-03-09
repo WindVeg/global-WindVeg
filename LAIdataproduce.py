@@ -9,7 +9,7 @@ import calendar
 import pandas as pd
 import geopandas as gpd
 import salem
-
+ 
 
 def tiff2nc(path):
     data = gdal.Open(path)
@@ -193,3 +193,4 @@ LAI_interp = LAI_merged.interp(lat=lat_da, lon=lon_da, method='nearest')
 df = LAI_interp.to_dataframe(name='LAI').reset_index()
 
 df.to_csv('F:/dir.csv',  index=False)
+
