@@ -100,12 +100,16 @@ The LAI data can download from: https://doi.org/10.5281/zenodo.7649107
 
 The wind data can download from: https://www.ncei.noaa.gov/data/global-summary-of-the-day/archive/
 
+The land cover data can be downloaded from https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=overview, and the filename is "ESACCI-LC-L4-LCCS-Map-300m-P1Y-1992-v2.0.7cds.nc" and "C3S-LC-L4-LCCS-Map-300m-P1Y-2020-v2.1.1.nc"
+
 The "LAIdataproduce.py" and "WINDdataproduce.py"  contain the preprocessing of the raw data, while "Fig1~Fig4.py" include data processing and visualization for the figures in the paper.
 
-PS: the path in code: ('G:/CN05.1/month/CN05.1_Win_1982_2020_yearly_025x025.nc') should replaced by the nc file in wind year data. 
+PS: the path in code: ('F:/merged_filtered_common_stations.csv') should be replaced by the data after running WINDdataproduce.py
+the path in code: ('F:/LAI.csv') should be replaced by the data after running LAIdataproduce.py
 
 LAI data used in the code should run LAIdataproduce.py first.
 wind data used in the code should run WINDdataproduce.py first.
+
 
 After completing the previous steps, Figures 1 to figures 4 should be visualized in Spyder within a minute.
 
