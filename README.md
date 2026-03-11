@@ -6,7 +6,6 @@ codes for "Wind Speed Recovery Promotes Vegetation Growth"
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Package Tests](#package-tests)
-- [Demo](#demo)
 - [Reproduction](#reproduction)
 - [Data Verification](#data-verification)
 
@@ -82,15 +81,7 @@ import salem
 ```
 if successfully run, then the packages are successfully downloaded.
 
-# Demo
-1. Finish Installation Guide and  Package tests
-2. Download Things in demo folder
-3. change the path in the code to the path after downloading
-4. Run demo.py
 
-The whole demo will be finished in few minutes.
-
-The Demo has demonstrated the usage of the relevant libraries and production of results. 
 
 # Reproduction
 
@@ -115,7 +106,7 @@ After completing the previous steps, Figures 1 to figures 4 should be visualized
 
 
 # Data Verification
-You can verification the LAI dealing process by visualization of 'G:/CN05.1/month/0.25_month_onlychina.nc' in LAI data process.
+You can verify the results by comparing with the original picture
 
 
 
